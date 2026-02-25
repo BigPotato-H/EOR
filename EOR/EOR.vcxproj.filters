@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="io">
+      <UniqueIdentifier>{193bbd04-34c2-4243-b5c5-82ce8a2de3db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kf">
+      <UniqueIdentifier>{37442888-0dbc-45c2-990a-0c51312bd35c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TestCalib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiAlign.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CenterLine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="KF\kalman_filter.cpp">
+      <Filter>kf</Filter>
+    </ClCompile>
+    <ClCompile Include="KF\FusionEKF.cpp">
+      <Filter>kf</Filter>
+    </ClCompile>
+    <ClCompile Include="DataIO.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="DataIOArgoverse.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="CapabilityCalculator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OptimizeWeighted.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TestCalib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiAlign.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CenterLine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="KF\kalman_filter.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="KF\FusionEKF.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="DataIO.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="DataIOArgoverse.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImageMatch\MutualInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CapabilityCalculator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OptimizeWeighted.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
